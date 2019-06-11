@@ -34,7 +34,7 @@ class Graph {
 
   void showGraph() {
     Node iterator = root;
-    print("Adjacency list:");
+    print("Lista de adjacencias:");
     while(iterator != null) {
       print("${iterator.name}: ${iterator.edges}");
       iterator = iterator.next;
